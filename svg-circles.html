@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+  fill: rgb(31, 119, 180);
+}
+
+path, .link {
+  stroke: rgb(31, 119, 180);
+  stroke-opacity: 1;
+  stroke-width: 15;
+  stroke-linecap: round;
+}
+
+
+
+</style>
+
+<svg width="960" height="500">
+    <circle class="node" r="15" cx="300" cy="100">
+        <title>left eye</title>
+    </circle>
+
+    <circle class="node" r="15" cx="600" cy="100">
+        <title>right eye</title>
+    </circle>
+
+    <circle class="node" r="15" cx="450" cy="150">
+        <title>nose</title>
+    </circle>
+
+    <!-- <line x1="300" y1="250" x2="600" y2="250">
+    </line> -->
+
+     <path stroke="sienna" stroke-width="2" fill="none"
+      d="M 300,250
+        Q 450,350 600,250" />
+</svg>
