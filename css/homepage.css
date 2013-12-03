@@ -1,0 +1,23 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    background: url(../img/matrix.jpg) repeat black;
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, ul { 
+    background-color: rgba(190,255,247,0.9);
+    box-shadow: 0 0 5px green;
+    padding: 10px 0;
+    border-radius: 15px;
+    text-align: center;
+}
+
+li {
+    margin: 15px 0;
+}
+li a {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
